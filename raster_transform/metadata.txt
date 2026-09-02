@@ -1,0 +1,19 @@
+[general]
+name=Raster Transform
+qgisMinimumVersion=4.0
+qgisMaximumVersion=4.99
+version=1.0.0
+version_str=1.0.0
+author=Copilot
+email=
+description=Move, rotate and scale raster layers without resampling the original pixels. The transformation is stored in the GeoTIFF affine georeferencing.
+about=Raster Transform ermöglicht das Verschieben, Drehen und Skalieren eines Rasterlayers ohne Resampling der Originalpixel. Beim Speichern wird ein neuer GeoTIFF erzeugt; Pixelanzahl, Bandstruktur, Datentyp und Rasterauflösung bleiben erhalten. Die Transformation wird über die affine GeoTIFF-Georeferenzierung gespeichert.
+homepage=https://github.com/otti73/Raster-Transform
+repository=https://github.com/otti73/Raster-Transform
+tracker=https://github.com/otti73/Raster-Transform/issues
+license=GPL-2.0-or-later
+license_file=LICENSE
+category=Raster
+icon=icon.svg
+experimental=False
+deprecated=False
