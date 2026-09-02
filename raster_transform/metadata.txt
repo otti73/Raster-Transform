@@ -2,8 +2,8 @@
 name=Raster Transform
 qgisMinimumVersion=4.0
 qgisMaximumVersion=4.99
-version=1.0.0
-version_str=1.0.0
+version=1.0.2
+version_str=1.0.2
 author=Copilot
 email=
 description=Move, rotate and scale raster layers without resampling the original pixels. The transformation is stored in the GeoTIFF affine georeferencing.
