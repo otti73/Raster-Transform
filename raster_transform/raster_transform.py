@@ -1,6 +1,7 @@
 import os
 import math
 import shutil
+import logging
 
 from qgis.PyQt.QtCore import Qt, QTimer, QPointF, QRectF
 from qgis.PyQt.QtGui import QImage, QPainter, QIcon
@@ -683,8 +684,8 @@ class RasterTransformPlugin:
         if self.item is not None:
             try:
                 self.canvas.scene().removeItem(self.item)
-            except Exception:
-                pass
+            except Exception as exc:
+                logging.debug("Raster Transform: original layer opacity could not be restored: %s", exc)
 
         if self.layer is not None:
             try:
